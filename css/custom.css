@@ -1,5 +1,48 @@
 /* CUSTOM VISUAL EFFECTS */
 
+:root {
+/* Base font for body copy */
+  --bs-body-font-family: "VT323", monospace;
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.6;
+
+  /* Primary and secondary colours */
+  --bs-primary: #620b68;
+  --bs-primary-rgb: 98, 11, 104;
+  --bs-secondary: #8c8c8c;
+  --bs-secondary-rgb: 140, 140, 140;
+
+  /* Default text colour and body background colour */
+  --bs-body-color: #8C8C8C;
+  --bs-body-bg: #000000;
+
+  /* Overriding other Bootstrap colour classes */
+  --bs-dark: #000000;
+  --bs-dark-rgb: 0, 0, 0;
+  --bs-light: #faadff;
+  --bs-light-rgb: 250, 173, 255;
+  --bs-info: #8c8c8c;
+  --bs-info-rgb: 140, 140, 140;
+
+}
+
+/* Fonts for Headings
+-------------------------------------------------- */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+
+/* Other Details
+-------------------------------------------------- */
+
 /* Fine-tuning hero images */
 .hero-carousel-img {
 	height: 450px;
